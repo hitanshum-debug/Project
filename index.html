@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="stylesheet" href="checking.css"> -->
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav_bar">
+        <a href="index.html" class="logo">
+          <img src="logo.png" alt="Logo" />
+        </a>
+
+        <ul id="list">
+          <li><a class="active" href="#Home">Home</a></li>
+          <li><a href="#Restaurant">Restaurant</a></li>
+          <li><a href="#Offers">Offers</a></li>
+          <li><a href="#Foods">Foods</a></li>
+          <li><a href="#Services">Services</a></li>
+        </ul>
+        <div id="side_nav">
+          <img src="image.png" alt="icon" />
+
+          <button id="loginBtn">Login</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="left_side">
+        <h1 id="heading">Hot Pizza king</h1>
+        <div id="title_line">
+          <p id="para_1">Delivery</p>
+          <span id="text">Service</span>
+        </div>
+
+        <p id="para_2">
+          Big flavor in every slice! 🍕 Explore our menu, find your nearest
+          spot, and taste the perfection. One bite is all it takes!
+        </p>
+
+        <div id="bar">
+          <img src="location-2955.png" alt="logo" />
+          <p>Okhla Phase 1, New Delhi</p>
+          <span>Search Food</span>
+        </div>
+      </section>
+
+      <section id="right_side">
+        <img src="Group 16.png" alt="main_image" id="main-img" />
+        <img src="Group 15.png" alt="overlay_image1" id="overlay-img1" />
+        <img src="Group 15.png" alt="overlay_image2" id="overlay-img2" />
+        <img src="Group 15.png" alt="overlay_image3" id="overlay-img3" />
+      </section>
+    </main>
+
+    <section>
+      <div id="loginSection">
+        <div id="title">
+          <h1>login Form</h1>
+          <span id="close">✖️</span>
+        </div>
+        <form id="loginForm">
+          <label for="username">UserName :</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="password">Password :</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
